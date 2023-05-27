@@ -1,0 +1,26 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:p1="urn:import:com.google.gwt.user.cellview.client">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+		<g:VerticalPanel width="805px" height="227px">
+			<g:HorizontalPanel width="174px" height="44px">
+				<g:Label text="Inventry status on" width="124px" height="44px"/>
+				<g:DateLabel width="108px" height="40px"/>
+			</g:HorizontalPanel>
+			<g:HorizontalPanel width="784px" height="160px">
+				<p1:CellTable ui:field="cellTable" width="558px"/>
+				<g:DisclosurePanel open="true">
+					<g:header>Inventry</g:header>
+					<g:VerticalPanel width="5cm" height="44px">
+						<g:Button width="170px" text="Print"/>
+					</g:VerticalPanel>
+				</g:DisclosurePanel>
+			</g:HorizontalPanel>
+		</g:VerticalPanel>
+		</g:HTMLPanel>
+</ui:UiBinder> 

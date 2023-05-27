@@ -1,0 +1,2 @@
+serviceClass: ecr.web.app.client.services.TVAService
+path: 1289A64295A3BC9EC357780DAB449249.gwt.rpc

@@ -1,0 +1,2 @@
+serviceClass: ecr.web.app.client.services.DiscountService
+path: AA3D8F7F32BF7412E11EA97B1FE16685.gwt.rpc

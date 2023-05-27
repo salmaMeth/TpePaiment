@@ -1,0 +1,75 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:w="urn:import:com.google.gwt.widget.client">
+	<ui:style>
+	.brown {
+			background: none repeat scroll 0 0 #b51c44;
+		}
+		.brown:hover {
+	background:#7a0423;
+}
+.magenta {
+			background: none repeat scroll 0 0 #a300aa;
+				}
+		.magenta:hover {
+	background:#7f0184;
+}		
+.violate {
+			background: none repeat scroll 0 0 #5b3ab6;
+				}
+		.violate:hover {
+	background:#2c1470;
+}				
+.orange {
+			background: none repeat scroll 0 0 #ce4b27;
+				}
+		.orange:hover {
+	background:#983114;
+}				
+	</ui:style>
+	<g:HTMLPanel>
+	
+
+	<div>
+		<ul class="metro-sidenav clearfix">
+			<li>
+			    	<span class="notify-tip">
+				<g:Label ui:field="lbl_shift" height="14px" />
+							
+				</span>
+				<a >
+					
+						<g:Button ui:field="lbl_Start"  height= "80px"  width="82px" styleName="{style.brown}"> <i class="icon-home"></i>
+						<span>Start</span></g:Button>
+					
+				</a>
+			</li>
+			<li>
+				<a>
+				
+						<g:Button ui:field="lbl_Histo"  height= "80px"  width="82px" styleName="{style.orange}"> 	<i class="icon-time" ></i>
+						<span>Historic</span></g:Button></a>
+			</li>
+			<li>
+				<a>
+					
+						<g:Button ui:field="lbl_Config"  height= "80px"  width="82px" styleName="{style.violate}"> 	<i class="icon-group" ></i>
+						<span>Clients</span></g:Button></a>		
+					
+					
+				
+			</li>
+			<li>
+				<a >
+						<g:Button ui:field="lbl_Caisse"  height= "80px"  width="82px" styleName="{style.magenta}"> <i class="icon-cog" ></i>
+						<span>Case</span></g:Button></a>
+				
+						</li>
+
+		</ul>
+
+	</div>
+
+	</g:HTMLPanel>
+
+</ui:UiBinder> 

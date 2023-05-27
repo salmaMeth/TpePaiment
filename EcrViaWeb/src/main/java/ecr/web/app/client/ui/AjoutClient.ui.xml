@@ -1,0 +1,104 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" 
+	xmlns:p1="urn:import:com.google.gwt.user.datepicker.client"
+	 xmlns:w="urn:import:com.google.gwt.widget.client"
+	   xmlns:view='urn:import:ecr.web.app.client.services'>
+	<ui:style>
+	
+	</ui:style>
+	<g:HTMLPanel>
+			<g:HorizontalPanel width="971px" height="340px"  ui:field="horizontalPanel" verticalAlignment="ALIGN_BOTTOM">
+			<g:VerticalPanel height="319px" width="341px" >
+				<g:HorizontalPanel height="31px" width="337px">
+					<g:RadioButton name="new name" text="Male" ui:field="radio_Homme"/>
+					<g:RadioButton name="new name" text="Female" ui:field="radio_Femme"/>
+				</g:HorizontalPanel>
+				<g:HorizontalPanel height="31px" width="337px">
+					<g:Label text="Card Id"  width="140px"/>
+					<g:TextBox ui:field="txt_cardid"/>
+				</g:HorizontalPanel>
+					<g:HorizontalPanel height="31px" width="337px">
+					<g:Label  text="First first" width="140px"/>
+					<g:TextBox  ui:field="txt_Name"/>
+				</g:HorizontalPanel>
+					<g:HorizontalPanel height="31px" width="337px">
+					<g:Label  text="Last name" width="140px"/>
+					<g:TextBox  ui:field="txt_SecName"/>
+				</g:HorizontalPanel>
+					<g:HorizontalPanel height="31px" width="337px">
+					<g:Label text="Phone 1" width="140px"/>
+					<g:TextBox ui:field="txt_phone1"/>
+				</g:HorizontalPanel>
+					<g:HorizontalPanel height="31px" width="337px">
+					<g:Label text="Phone 2" width="140px"/>
+					<g:TextBox ui:field="txt_phone2"/>
+				</g:HorizontalPanel>
+							
+					<g:HorizontalPanel height="31px" width="337px">
+					<g:Label text="Date of birth" width="140px"/>
+					<p1:DateBox ui:field="Date_nais"/>
+				</g:HorizontalPanel>
+			   </g:VerticalPanel>
+				<g:VerticalPanel height="319px" width="341px" >
+				<g:HorizontalPanel height="31px" width="337px">
+					<g:Label  text="Family situation" width="140px"/>
+					<g:TextBox ui:field="txt_SituationFa"/>
+				</g:HorizontalPanel>
+				<g:HorizontalPanel height="31px" width="337px">
+					<g:Label  text="Profession" width="140px"/>
+					<g:TextBox  ui:field="txt_Profession"/>
+				</g:HorizontalPanel>
+					<g:HorizontalPanel height="31px" width="337px">
+					<g:Label  text="Address" width="140px"/>
+					<g:TextBox  ui:field="txt_Adresse"/>
+				</g:HorizontalPanel>
+					<g:HorizontalPanel height="31px" width="337px">
+					<g:Label  text="City" width="140px"/>
+					<g:TextBox  ui:field="txt_City"/>
+				</g:HorizontalPanel>
+	             <g:HorizontalPanel height="31px" width="337px">
+					<g:Label text="Postal code" width="140px"/>
+					<g:TextBox ui:field="txt_codepos"/>
+				</g:HorizontalPanel>
+					<g:HorizontalPanel height="31px" width="337px">
+					<g:Label text="Continent"  width="140px"/>
+					<g:ListBox ui:field="comb_continent" >
+					 <g:item value='1'>American</g:item>
+                     <g:item value='2'>European</g:item>
+                     <g:item value='3'>Australia</g:item>
+                      <g:item value='4'>Asian</g:item>
+                      <g:item value='5'>African</g:item>
+		</g:ListBox>	
+			</g:HorizontalPanel>
+				<g:HorizontalPanel height="31px" width="337px">
+					<g:Label text="Points de fidalités" width="140px"/>
+					<g:TextBox  readOnly="true" enabled="false" text="0" ui:field="txt_Pointfidal"/>
+				</g:HorizontalPanel>
+			
+			<g:HorizontalPanel height="31px" width="337px">
+				
+				<g:FormPanel  ui:field="pan_form"  height="33px" >
+					<g:HorizontalPanel height="25px" width="331px">
+						<g:FileUpload width="256px" ui:field="uploadFormElement"/>
+						
+						<g:Button ui:field="bnt_Upload">
+						<i class="icon-upload-alt"></i>
+Upload</g:Button>
+					</g:HorizontalPanel>
+			</g:FormPanel>
+			</g:HorizontalPanel>
+			</g:VerticalPanel>
+							<g:Cell horizontalAlignment="ALIGN_RIGHT">
+								<g:DisclosurePanel open="true" height="116px">
+				<g:header></g:header>
+				<g:VerticalPanel width="132px" height="180px">
+					<g:Button  width="173px" height="33px" text="Add client" ui:field="bnt_AjoutClient"/>
+					<g:Button  width="173px" height="33px" text="Print card "  ui:field="bnt_Imprimer"/>
+					<g:Button  width="173px" height="33px" text="Cancel"  ui:field="bnt_Reset"/>
+				</g:VerticalPanel>
+			</g:DisclosurePanel>
+							</g:Cell>
+		</g:HorizontalPanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

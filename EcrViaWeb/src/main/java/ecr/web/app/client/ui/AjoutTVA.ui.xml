@@ -1,0 +1,52 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	  xmlns:my='urn:ecr.web.app.client.services'>
+		<ui:style>
+	
+    	.mainPanel {
+                      border: 2px solid black;
+           
+        }
+        
+  
+    </ui:style>
+<g:HTMLPanel styleName="{style.mainPanel}"> 
+<div class="row-fluid ">
+<div class="span12">
+<div class="content-widgets gray">
+<div class="widget-head blue clearfix">
+<h3 class="pull-left">Add TVA </h3>
+</div>
+<div class="widget-container">
+		<form class="form-horizontal">
+		
+					<div class="control-group">
+	<g:HorizontalPanel width="549px" height="108px"   ui:field="horizontalPanel" verticalAlignment="ALIGN_BOTTOM" horizontalAlignment="ALIGN_CENTER">
+			<g:VerticalPanel height="121px" width="358px" horizontalAlignment="ALIGN_LEFT" >
+				<g:HorizontalPanel height="31px" width="337px">
+					<g:Label text="Descreption" width="77px"/>
+					<g:TextBox  ui:field="txt_descreption"/>
+				</g:HorizontalPanel>
+						
+				<g:HorizontalPanel height="31px" width="337px">
+					<g:Label text="Amount" width="77px" />
+					<g:TextBox ui:field="txt_amount" />
+				</g:HorizontalPanel>
+											
+			</g:VerticalPanel>
+							<g:Cell horizontalAlignment="ALIGN_RIGHT">
+								<g:DisclosurePanel open="true" height="116px">
+				<g:header></g:header>
+				<g:VerticalPanel width="132px" height="100px">
+					<g:Button width="173px" height="33px" text="Add TVA" ui:field="bn_Ajoutva"/>
+					<g:Button height="33px" text="Cancel" width="173px" ui:field="btn_annuler"/>
+					<g:Button  width="173px" height="33px" text="Exit "  ui:field="bnt_exit"/>
+					
+				</g:VerticalPanel>
+			</g:DisclosurePanel>
+							</g:Cell>
+		</g:HorizontalPanel>
+		</div></form></div></div></div></div>
+	</g:HTMLPanel>
+</ui:UiBinder> 

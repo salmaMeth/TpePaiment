@@ -1,0 +1,42 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:w="urn:import:com.google.gwt.widget.client">
+	<ui:style>
+
+	</ui:style>
+	<g:HTMLPanel>
+		<g:VerticalPanel width="1010px" height="404px" verticalAlignment="ALIGN_TOP">
+			<g:Cell verticalAlignment="ALIGN_BOTTOM">
+				<g:Label text="Export data" width="230px" height="29px" horizontalAlignment="ALIGN_LEFT"/>
+			</g:Cell>
+			<g:Label text="-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------" width="960px"/>
+			<g:Cell horizontalAlignment="ALIGN_CENTER">
+				<g:HorizontalPanel width="1000px" height="284px">
+				<g:VerticalPanel width="440px" height="274px">
+					<g:Label width="273px" height="50px" text="Output format"/>
+					<g:RadioButton name="new name" text="Rapport PDF"/>
+					<g:RadioButton name="new name" text="Export Excel"/>
+					<g:RadioButton name="new name" text="Export CVS"/>
+					<g:Label height="23px" text="Filtres" width="266px"/>
+					<g:Label height="23px" text="Filtrer une caisse" width="266px"/>
+					<g:ListBox width="291px" height="26px"/>
+				</g:VerticalPanel>
+				<g:VerticalPanel width="534px" height="274px">
+					<g:Label height="50px" text="Period" width="273px"/>
+					<g:Label height="23px" text="Period exported" width="266px"/>
+					<g:ListBox width="291px" height="25px"/>
+					<g:Label height="23px" text="Daily export" width="266px"/>
+					<g:Label height="23px" text="Select the day for which you want export:" width="428px"/>
+					<g:HorizontalPanel width="486px" height="28px">
+						<g:ListBox width="165px" height="27px"/>
+						<g:Cell verticalAlignment="ALIGN_MIDDLE">
+							<w:TextButton text="Download" width="187px"/>
+						</g:Cell>
+					</g:HorizontalPanel>
+				</g:VerticalPanel>
+			</g:HorizontalPanel>
+			</g:Cell>
+		</g:VerticalPanel>
+		
+	</g:HTMLPanel>
+</ui:UiBinder> 

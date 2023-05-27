@@ -1,0 +1,106 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:w="urn:import:com.google.gwt.widget.client" xmlns:p1="urn:import:com.google.gwt.user.cellview.client">
+	<ui:style>
+  	</ui:style>
+
+<g:HTMLPanel ui:field="panel_ajoutpdt">
+			<g:HorizontalPanel width="971px" height="340px"  ui:field="horizontalPanel" verticalAlignment="ALIGN_BOTTOM">
+			<g:VerticalPanel height="319px" width="341px" >
+				<g:HorizontalPanel height="31px" width="337px">
+					<g:Label text="Name" width="140px"/>
+					<g:TextBox ui:field="txt_NomPts"/>
+				</g:HorizontalPanel>
+				<g:HorizontalPanel height="31px" width="337px">
+					<g:Label text="Description" width="140px"/>
+					<g:TextBox ui:field="txt_DesPts"/>
+				</g:HorizontalPanel>
+				<g:HorizontalPanel height="31px" width="337px">
+					<g:Label text="Product bar code"  width="140px"/>
+					<g:TextBox ui:field="txt_CodePts"/>
+				</g:HorizontalPanel>
+				<g:HorizontalPanel height="31px" width="337px">
+					<g:Label text="Purchasing price" width="140px"/>
+					<g:TextBox ui:field="txt_vende"/>
+				</g:HorizontalPanel>
+				<g:HorizontalPanel height="31px" width="337px">
+					<g:Label text="Selling price" width="140px"/>
+					<g:TextBox  ui:field="txt_achat"/>
+				</g:HorizontalPanel>
+				<g:HorizontalPanel height="31px" width="337px">
+					<g:Label text="TVA" width="140px"/>
+					<g:ListBox  ui:field="cm_TVA">
+					<g:item value='1'></g:item>
+					<g:item value='2'>30</g:item>
+                     <g:item value='3'>20 </g:item>
+                     <g:item value='4'>40 </g:item>
+		</g:ListBox>	
+				</g:HorizontalPanel>
+				<g:HorizontalPanel height="31px" width="337px">
+					<g:Label text="Stock" width="140px"/>
+					<g:TextBox ui:field="txt_StokPts"/>
+				</g:HorizontalPanel>
+				<g:HorizontalPanel height="31px" width="337px">
+					<g:Label text="Loyality point" width="140px"/>
+					<g:TextBox  ui:field="txt_PtsFidalit"/>
+				</g:HorizontalPanel>
+			</g:VerticalPanel>
+			
+					<g:VerticalPanel height="319px" width="341px" >
+			<g:HorizontalPanel height="31px" width="337px">
+					<g:Label  text="Discount" width="140px"/>
+					<g:ListBox  ui:field="cmb_Remise">
+					<g:item value='1'></g:item>
+					<g:item value='2'>50% </g:item>
+                     <g:item value='3'>60% </g:item>
+                     <g:item value='4'>80% </g:item>
+		</g:ListBox>	
+				</g:HorizontalPanel>
+			<g:HorizontalPanel height="31px" width="337px">
+					<g:Label text="Supplier code" width="140px"/>
+					<g:TextBox  ui:field="txt_fours"/>
+				</g:HorizontalPanel>
+			<g:HorizontalPanel height="31px" width="337px">
+					<g:Label text="State"  width="140px"/>
+					<g:ListBox  ui:field="cmb_etat">
+					<g:item value='1'> </g:item>
+					<g:item value='2'>en stok </g:item>
+                     <g:item value='3'>en rupture </g:item>
+                     	</g:ListBox>	
+				</g:HorizontalPanel>
+				<g:HorizontalPanel height="31px" width="337px">
+					<g:Label  text="Range" width="140px"/>
+					<g:ListBox ui:field="cmb_rayonpts"/>
+								</g:HorizontalPanel>
+									<g:HorizontalPanel height="31px" width="337px">
+					<g:Label text="Provider id" width="140px"/>
+					<g:ListBox  ui:field="cmd_provider">
+					<g:item value='1'></g:item>
+					<g:item value='2'>1</g:item>
+                  		</g:ListBox>	
+				</g:HorizontalPanel>
+								<g:HorizontalPanel height="31px" width="337px">
+				
+				<g:FormPanel  ui:field="pan_form"  height="33px" >
+					<g:HorizontalPanel height="25px" width="331px">
+						<g:FileUpload width="256px" ui:field="uploadFormElement"/>
+						
+						<g:Button ui:field="bnt_Upload">
+						<i class="icon-upload-alt"></i>
+Upload</g:Button>
+					</g:HorizontalPanel>
+			</g:FormPanel>
+			</g:HorizontalPanel>
+			</g:VerticalPanel>
+							<g:Cell horizontalAlignment="ALIGN_RIGHT">
+								<g:DisclosurePanel open="true" height="116px">
+				<g:header></g:header>
+				<g:VerticalPanel width="132px" height="100px">
+					<g:Button width="173px" height="33px" text="Save product" ui:field="btn_savePts"/>
+					<g:Button height="33px" text="Cancel" width="173px" ui:field="btn_resetPts"/>
+							</g:VerticalPanel>
+			</g:DisclosurePanel>
+							</g:Cell>
+		</g:HorizontalPanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

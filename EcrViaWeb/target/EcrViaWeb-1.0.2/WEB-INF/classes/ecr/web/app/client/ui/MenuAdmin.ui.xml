@@ -1,0 +1,104 @@
+      
+       <!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+#button { padding: 0;      }
+#button li {
+ display: inline;
+      -moz-border-radius-topleft: 12px;
+      -webkit-border-top-left-radius:12px;
+      }
+#button li a {
+ font-family: Arial;
+ font-size:12px;
+ text-decoration: none;
+   float:left;
+   width:70px;
+   height:30px;
+   padding: 5px;
+   color: #000000;
+      
+ /*Gradient*/
+background: #f5f6f6; /* Old browsers */
+background: -moz-linear-gradient(top,  #f5f6f6 0%, #dbdce2 21%, #b8bac6 49%, #dddfe3 80%, #f5f6f6 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f6f6), color-stop(21%,#dbdce2), color-stop(49%,#b8bac6), color-stop(80%,#dddfe3), color-stop(100%,#f5f6f6)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=0 ); /* IE6-9 */
+
+}
+#button li:first-child a{
+    -moz-border-radius: 15px 0px 0px 15px;
+    -webkit-border-radius: 15px 0px 0px 15px;
+    border-radius: 15px 0px 0px 15px;
+}
+#button li a:hover {
+       background-color: #2586d7;
+ margin-top:-3px;
+       color:#000000;
+ padding-bottom:12px;
+     -moz-box-shadow: 0 -5px 10px #777; -webkit-box-shadow: 0 -5px 10px #777;
+   /*Transition*/
+     -webkit-transition: All 0.5s ease;
+     -moz-transition: All 0.5s ease;
+     -o-transition: All 0.5s ease;
+     -ms-transition: All 0.5s ease;
+     transition: All 0.5s ease;
+/*Gradient*/
+background: #eeeeee; /* Old browsers */
+background: -moz-linear-gradient(top,  #eeeeee 0%, #eeeeee 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#eeeeee)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #eeeeee 0%,#eeeeee 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #eeeeee 0%,#eeeeee 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #eeeeee 0%,#eeeeee 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #eeeeee 0%,#eeeeee 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+
+}
+ .horizontalPanelStyle{
+			background: #f5f6f6; /* Old browsers */
+background: -moz-linear-gradient(top,  #f5f6f6 0%, #dbdce2 21%, #b8bac6 49%, #dddfe3 80%, #f5f6f6 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f6f6), color-stop(21%,#dbdce2), color-stop(49%,#b8bac6), color-stop(80%,#dddfe3), color-stop(100%,#f5f6f6)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=0 ); /* IE6-9 */
+		}
+
+	}
+	</ui:style>
+	<g:HTMLPanel>
+		<g:VerticalPanel width="814px" height="428px">
+			<g:HTMLPanel height="41px" width="1008px" styleName="{style.horizontalPanelStyle}"> 
+			<div >
+  <ul id="button">
+  <li><a href="#"> <g:Label ui:field="lbl_comptes" height="30px">Counts</g:Label></a></li>
+    <li><div class="gap"></div></li>
+    <li><a href="#" ><g:Label ui:field="lbl_clts" height="28px">Clients</g:Label></a></li>
+    <li><div class="gap"></div></li>
+    <li><a href="#"> <g:Label ui:field="lbl_Produit" height="29px">Products</g:Label></a></li>
+    <li><div class="gap"></div></li>
+    <li><a href="#"><g:Label ui:field="lbl_rayon" height="28px">Ranges</g:Label></a></li>
+    <li><div class="gap"></div></li>
+    <li><a href="#"> <g:Label ui:field="lbl_Term" height="30px">Terminals</g:Label></a></li>
+   <li><div class="gap"></div></li>
+   <li><a href="#"> <g:Label ui:field="lbl_Four" height="30px">Providers</g:Label></a></li>
+   <li><div class="gap"></div></li>
+    <li><a href="#"> <g:Label ui:field="lbl_inv" height="30px">Inventory</g:Label></a></li>
+    <li><div class="gap"></div></li>
+      <li><a href="#"> <g:Label ui:field="lbl_Stat" height="29px">Statistic</g:Label></a></li>
+    <li><div class="gap"></div></li>
+       <li><a href="#"><g:Label ui:field="lbl_Param" height="31px">Parameters</g:Label></a></li>
+     <li><div class="gap"></div></li>
+   
+  </ul>
+</div></g:HTMLPanel>
+			
+		</g:VerticalPanel>
+	
+	</g:HTMLPanel>
+</ui:UiBinder> 

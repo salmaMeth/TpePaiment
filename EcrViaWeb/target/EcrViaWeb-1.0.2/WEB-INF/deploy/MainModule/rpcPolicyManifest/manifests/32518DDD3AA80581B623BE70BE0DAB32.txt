@@ -1,0 +1,2 @@
+serviceClass: ecr.web.app.client.services.HistoricService
+path: A95F84089BF9A6568404C230FCF5D867.gwt.rpc

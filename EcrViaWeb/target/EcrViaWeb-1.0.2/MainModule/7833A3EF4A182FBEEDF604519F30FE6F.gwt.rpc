@@ -1,0 +1,18 @@
+com.google.gwt.i18n.shared.impl.DateRecord, false, false, true, true, com.google.gwt.i18n.shared.impl.DateRecord/3375188634, 3375188634
+com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException, true, true, true, true, com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException/3936916533, 3936916533
+com.google.gwt.user.client.rpc.RpcTokenException, true, true, false, false, com.google.gwt.user.client.rpc.RpcTokenException/2345075298, 2345075298
+com.google.gwt.user.client.rpc.XsrfToken, false, false, true, true, com.google.gwt.user.client.rpc.XsrfToken/4254043109, 4254043109
+ecr.web.app.client.services.StartTxnService, false, false, false, false, _, 2616097069
+ecr.web.app.shared.TransactionDataIn, false, false, true, true, ecr.web.app.shared.TransactionDataIn/4273729200, 4273729200
+ecr.web.app.shared.dto.TxnResponseDTO, true, true, false, false, ecr.web.app.shared.dto.TxnResponseDTO/240286493, 240286493
+@ClientFields,ecr.web.app.shared.dto.TxnResponseDTO,id,txt_cMessageNumber,txt_cReference,txt_cAmount,cmb_TransactionType,txt_cAmount1Info,txt_MerID,txt_cashAmount,txt_IsDccTran,txt_CheckAuth,txt_Receipt,txt_ExpiryDate,txt_MerchantName,txt_MerchantAdr1,txt_MerchantAdr2,txt_MessageNum,txt_CardName,txt_Reference,txt_TranSta,txt_Pan,txt_PrintMarker,txt_CurrencySym,txt_Ceiling,txt_CashCeilingLimit,txt_AmLaInp2,txt_amountinp3,txt_CashElig,txt_msginp,txt_amountinp1,txt_refinp,txt_amountinp2,txt_ReceipNum,txt_AmLaInp3,txt_TotalAmount,txt_AmLaInp4,txt_TranTyp,txt_Cash,txt_TranAmou,txt_cvm,txt_Currency,txt_DateTxn,txt_RespCode,txt_Authoode,txt_DccAm,txt_DccCurrency,txt_EntryMethod,txt_DccCurrExp,txt_FxRateApp,txt_DonaAmount,txt_IsLoyTran,txt_RedeeAmou,txt_TerminalID,txt_StarDate,txt_IccFileName,txt_Aid,txt_IccPrefName,txt_PanNum,txt_TrackData1,txt_AmLaInp1,txt_PrintInfos,txt_FxExpApp,txt_amountinp4,txtAr_HostMg,txt_NewAdIp,txt_TrackStatus1,txt_TrackData2,txt_TrackStatus2,txt_TrackData3,txt_TrackStatus3,txt_ReqOutput
+java.lang.Exception, true, false, true, false, java.lang.Exception/1920171873, 1920171873
+java.lang.Long, true, true, false, false, java.lang.Long/4227064769, 4227064769
+java.lang.Number, true, false, false, false, java.lang.Number/300033342, 300033342
+java.lang.RuntimeException, true, false, true, false, java.lang.RuntimeException/515124647, 515124647
+java.lang.String, true, true, true, true, java.lang.String/2004016611, 2004016611
+java.lang.Throwable, true, false, true, false, java.lang.Throwable/2953622131, 2953622131
+java.sql.Date, false, false, true, true, java.sql.Date/730999118, 730999118
+java.sql.Time, false, false, true, true, java.sql.Time/1816797103, 1816797103
+java.sql.Timestamp, false, false, true, true, java.sql.Timestamp/3040052672, 3040052672
+java.util.Date, false, false, true, true, java.util.Date/3385151746, 3385151746

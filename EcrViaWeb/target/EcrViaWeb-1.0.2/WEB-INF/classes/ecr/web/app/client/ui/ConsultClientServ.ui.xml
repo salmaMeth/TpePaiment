@@ -1,0 +1,91 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:w="urn:import:com.google.gwt.widget.client" xmlns:p1="urn:import:com.google.gwt.user.cellview.client">
+	<ui:style>
+  table
+{
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-collapse: separate;
+    border-color: #dddddd #dddddd #dddddd -moz-use-text-color;
+    border-image: none;
+    border-width: 1px 1px 1px 0;
+    width: 100%;
+}
+
+td{
+    line-height: 20px;
+    text-align: left;
+    vertical-align: top;
+    color: black;
+    border-collapse: collapse;
+}
+
+
+	</ui:style>
+
+<g:HTMLPanel height="1500" width="1500" ui:field="container">
+	<g:HorizontalPanel width="880px" height="283px">
+		<g:VerticalPanel height="275px" horizontalAlignment="ALIGN_LEFT" verticalAlignment="ALIGN_MIDDLE" width="826px">
+			<g:HorizontalPanel height="42px" horizontalAlignment="ALIGN_LEFT"  verticalAlignment="ALIGN_BOTTOM" width="789px">
+				<g:HorizontalPanel height="38px" horizontalAlignment="ALIGN_RIGHT" verticalAlignment="ALIGN_BOTTOM" width="400px">
+					<g:Label height="22px" horizontalAlignment="ALIGN_CENTER" text="Find by Id" width="156px"/>
+					<g:TextBox alignment="LEFT" height="10px" ui:field="searchBox"/>
+				</g:HorizontalPanel>
+			</g:HorizontalPanel>
+			<p1:CellTable ui:field="cell_produit" height="125px" width="790px" pageSize="5"/>
+			<g:HorizontalPanel height="42px" horizontalAlignment="ALIGN_LEFT"  verticalAlignment="ALIGN_BOTTOM" width="789px">
+				<g:Label height="28px" horizontalAlignment="ALIGN_LEFT" text="Elements:" width="165px"/>
+				<g:HorizontalPanel height="23px" horizontalAlignment="ALIGN_RIGHT" verticalAlignment="ALIGN_BOTTOM" width="506px">
+					<p1:SimplePager location="CENTER" width="359px" ui:field="simple_pdt"/>
+				</g:HorizontalPanel>
+			</g:HorizontalPanel>
+			
+		</g:VerticalPanel>
+	
+	</g:HorizontalPanel>
+	
+
+
+</g:HTMLPanel>
+</ui:UiBinder> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+			

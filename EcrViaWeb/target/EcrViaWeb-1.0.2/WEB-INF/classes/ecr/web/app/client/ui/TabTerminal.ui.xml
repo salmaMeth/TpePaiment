@@ -1,0 +1,41 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	}
+	</ui:style>
+	<g:HTMLPanel>
+		<div class="span6">
+<div class="tab-widget">
+<ul id="myTab2" class="nav nav-tabs">
+<li  class="active">
+<a>
+<g:Button  ui:field="btn_termtab">
+<i class="icon-mobile-phone"></i>
+Terminals
+</g:Button>
+</a>
+
+</li>
+<li class="active" >
+<a>
+<g:Button  ui:field="btn_addtab">
+<i class="icon-plus"></i>
+Add terminal
+</g:Button>
+</a>
+</li>
+</ul>
+<div class="tab-content">
+<div id="comments-post" class="tab-pane active">
+<g:HTMLPanel width="920px" ui:field="tabpanel"/>
+</div>
+<div id="notify" class="tab-pane">
+ 
+</div>
+</div>
+</div>
+</div>
+	    
+	</g:HTMLPanel>
+</ui:UiBinder> 

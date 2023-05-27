@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='ecr.web.app.MainModule' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/MainModule/springGwtServices/*" class="ecr.web.app.server.Obj_defServiceImpl" />
+
+</module>

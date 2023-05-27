@@ -1,0 +1,54 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:w="urn:import:com.google.gwt.widget.client" >
+	<ui:style>
+	 	.mainPanel {
+                      border: 2px solid black;
+           
+        }
+        .ERROR {
+	  font-size: small;
+      color: red;
+      font-weight: bold;
+        }
+          .success {
+	  font-size: small;
+       color: green;
+      font-weight: bold;
+
+        }
+  	</ui:style>
+<g:HTMLPanel styleName="{style.mainPanel}"> 
+<div class="row-fluid ">
+<div class="span12">
+<div class="content-widgets gray">
+<div class="widget-head blue clearfix">
+<h3 class="pull-left">Print </h3>
+</div>
+<div class="widget-container">
+		<form class="form-horizontal">
+		
+					<div class="control-group">
+<label class="control-label">Print On Terminal</label>
+<g:RadioButton name="new name" text="" ui:field="radio_terminal"/></div>
+
+<div class="control-group">
+<label class="control-label">Print As PDF</label>
+<g:RadioButton name="new name" text="" ui:field="radio_print"/></div>
+
+		
+				<g:DisclosurePanel open="true" width="205px" height="116px" >
+					<g:header></g:header>
+					<g:VerticalPanel width="198px" height="72px">
+			 <g:Button height="32px" width="186px" text=" Print" ui:field="btn_ok" ></g:Button>
+			  <g:Button height="32px" width="186px" text="Cancel" ui:field="btn_cancel"></g:Button>
+					</g:VerticalPanel>
+				</g:DisclosurePanel>
+				</form>	
+				
+				
+		</div>
+</div></div>
+</div>
+	</g:HTMLPanel>
+</ui:UiBinder> 

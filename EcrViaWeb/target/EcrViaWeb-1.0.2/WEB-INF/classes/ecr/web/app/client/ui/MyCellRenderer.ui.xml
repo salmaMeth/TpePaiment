@@ -1,0 +1,40 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'>
+    <ui:with field='name' type='java.lang.String'/>
+    <ui:with field='image' type='java.lang.String'/>
+ 
+    <ui:style>
+        .imageWrapper {
+            float: left;
+            margin-right: 10px;
+        }
+        .imageWrapper img {
+            width: 64px;
+            height: 64px;
+        }
+        .infoWrapper {
+            float: left;
+        }
+        .infoWrapper div span {
+            display: inline-block;
+            marin-right: 5px;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    </ui:style>
+ 
+    <div>
+        <div class="imageWrapper">
+            <img alt="{name}" src="{image}" />
+        </div>
+ 
+        <div class="infoWrapper">
+            <h3><ui:text from="{name}"/></h3>
+            <div>
+                <span ui:field="remove">Remove</span>
+                <span ui:field="update">Update</span>
+            </div>
+        </div>
+ 
+        <div style="clear: both;"/>
+    </div>
+</ui:UiBinder>

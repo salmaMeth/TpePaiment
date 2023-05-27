@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+
+	<!-- SpringGwt remote service servlet -->
+	<servlet>
+		<servlet-name>springGwtRemoteServiceServlet</servlet-name>
+		<servlet-class>org.spring4gwt.server.SpringGwtRemoteServiceServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>uploadrange</servlet-name>
+		<servlet-class>ecr.web.app.server.impl.UploadRange</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>uploadclients</servlet-name>
+		<servlet-class>ecr.web.app.server.impl.UploadClient</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>uploadproduct</servlet-name>
+		<servlet-class>ecr.web.app.server.impl.UploadProduct</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>uploaduser</servlet-name>
+		<servlet-class>ecr.web.app.server.impl.UploadUser</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>springGwtRemoteServiceServlet</servlet-name>
+		<url-pattern>/MainModule/springGwtServices/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>uploadrange</servlet-name>
+		<url-pattern>/MainModule/uploadrange</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>uploaduser</servlet-name>
+		<url-pattern>/MainModule/uploaduser</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>uploadproduct</servlet-name>
+		<url-pattern>/MainModule/uploadproduct</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>uploadclients</servlet-name>
+		<url-pattern>/MainModule/uploadclients</url-pattern>
+	</servlet-mapping>
+	<!-- Default page to serve -->
+	<welcome-file-list>
+		<welcome-file>MainModule.html</welcome-file>
+	</welcome-file-list>
+
+</web-app>
+

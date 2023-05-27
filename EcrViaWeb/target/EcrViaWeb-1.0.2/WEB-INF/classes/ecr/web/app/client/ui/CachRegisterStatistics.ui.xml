@@ -1,0 +1,65 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+xmlns:p1="urn:import:com.google.gwt.user.cellview.client"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	             xmlns:m='urn:import:org.moxieapps.gwt.highcharts.client'>
+	
+	<ui:style>
+
+	.edit-cell input {
+    width:65px;
+    text-align: center;
+}
+
+	
+	</ui:style>
+	<g:HTMLPanel>
+
+<div class="container-fluid"  >
+<div class="row-fluid"  >
+<div class="span12">
+<div class="primary-head">
+<h3 class="page-header">Charts</h3>
+</div></div></div>
+<div class="row-fluid"  >
+<div class="span6">
+<div class="content-widgets white">
+<div class="widget-head blue">
+<h3>Pie Chart</h3>
+</div>
+<div class="widget-container">
+<div id="chart_div" style="position: relative;">
+<div style="position: relative; width: 543px; height: 400px;" dir="ltr">
+
+<div>
+          <m:Chart ui:field='usagePie'/>
+   
+    
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="span4">
+<div class="content-widgets white">
+<div class="widget-head blue">
+<h3>Interpretation</h3>
+</div>
+<div class="widget-container">
+<div class="pack-details">
+<p>This diagram permits the classification performance of the sets of cash magsiner.</p>
+
+			<p1:CellTable ui:field="tab_infos" height="269px"  pageSize="5" addStyleNames="{style.edit-cell}"></p1:CellTable>		
+
+            
+</div>
+</div>
+</div>
+</div>
+
+
+</div></div>
+
+	</g:HTMLPanel>
+</ui:UiBinder> 

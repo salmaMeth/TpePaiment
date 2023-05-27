@@ -1,0 +1,2 @@
+serviceClass: ecr.web.app.client.services.AdressMailService
+path: 339C6E298BEFA168209111D8B0D91212.gwt.rpc

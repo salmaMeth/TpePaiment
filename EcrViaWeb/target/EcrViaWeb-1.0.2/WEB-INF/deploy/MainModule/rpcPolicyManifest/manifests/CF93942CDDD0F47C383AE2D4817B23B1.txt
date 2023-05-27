@@ -1,0 +1,2 @@
+serviceClass: ecr.web.app.client.services.StartTxnService
+path: 7833A3EF4A182FBEEDF604519F30FE6F.gwt.rpc

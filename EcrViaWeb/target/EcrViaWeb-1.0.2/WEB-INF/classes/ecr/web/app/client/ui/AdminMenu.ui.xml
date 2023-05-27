@@ -1,0 +1,131 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:w="urn:import:com.google.gwt.widget.client">
+	<ui:style>
+	.brown {
+			background: none repeat scroll 0 0 #b51c44;
+		}
+		.brown:hover {
+	background:#7a0423;
+}
+.magenta {
+			background: none repeat scroll 0 0 #a300aa;
+				}
+		.magenta:hover {
+	background:#7f0184;
+}		
+.violate {
+			background: none repeat scroll 0 0 #5b3ab6;
+				}
+		.violate:hover {
+	background:#2c1470;
+}				
+.green {
+			  background: none repeat scroll 0 0 #009600;
+				}
+		.green:hover {
+	background:#983114;
+}	
+.orange {
+			background: none repeat scroll 0 0 #ce4b27;
+				}
+		.orange:hover {
+	background:none repeat scroll 0 0 #306630;}
+.bondi-blue {
+    background: none repeat scroll 0 0 #0093A8;
+}	
+.bondi-blue:hover {
+	background:none repeat scroll 0 0 #066B79;}
+	.dark-yellow {
+    background: none repeat scroll 0 0 #E88A05;
+}
+	.dark-yellow:hover {
+	background:none repeat scroll 0 0 #B06700;}	
+	
+	.bluefon {
+    background: none repeat scroll 0 0 #3498DB;
+}
+	.bluefon:hover {
+	background:none repeat scroll 0 0 #005580;}		
+	
+	
+		
+	</ui:style>
+	<g:HTMLPanel>
+	
+
+	<div>
+		<ul class="metro-sidenav clearfix">
+			<li>
+					<a >
+					
+						<g:Button ui:field="lbl_Caisse"  height= "80px"  width="82px" styleName="{style.brown}"> <i class="icon-money"></i>
+						<span>Caisses</span></g:Button>
+					
+				</a>
+			</li>
+			<li>
+				<a>
+				
+						<g:Button ui:field="lbl_Compte"  height= "80px"  width="82px" styleName="{style.orange}"> 	<i class=" icon-user" ></i>
+						<span>Counts</span></g:Button></a>
+			</li>
+			<li>
+				<a>
+					
+						<g:Button ui:field="lbl_clts"  height= "80px"  width="82px" styleName="{style.violate}"> 	<i class="icon-group" ></i>
+						<span>Clients</span></g:Button></a>		
+					
+					
+				
+			</li>
+			<li>
+				<a >
+						<g:Button ui:field="lbl_Produit"  height= "80px"  width="82px" styleName="{style.magenta}"> <i class=" icon-shopping-cart" ></i>
+						<span>Products</span></g:Button></a>
+				
+						</li>
+			<li>
+				<a >
+						<g:Button ui:field="lbl_rayon"  height= "80px"  width="82px" styleName="{style.green}"> <i class="icon-sitemap" ></i>
+						<span>Ranges</span></g:Button></a>
+				
+						</li>
+							<li>
+				<a >
+						<g:Button ui:field="lbl_terminal"  height= "80px"  width="82px" styleName="{style.bondi-blue}"> <i class="icon-mobile-phone" ></i>
+						<span>Terminals</span></g:Button></a>
+				
+						</li>
+																<li>
+				<a >
+						<g:Button ui:field="lbl_Four"  height= "80px"  width="82px" styleName="{style.dark-yellow}"> <i class="icon-user-md" ></i>
+						<span>Providers</span></g:Button></a>
+				
+						</li>
+										<li>
+				<a >
+						<g:Button ui:field="lbl_Param"  height= "80px"  width="82px" styleName="{style.bluefon}"> <i class="icon-cogs" ></i>
+						<span>Settings</span></g:Button></a>
+				
+						</li>	
+										<li>
+				<a >
+						<g:Button ui:field="lbl_statis"  height= "80px"  width="82px" styleName="{style.brown}"> <i class="icon-bar-chart"></i>
+<span>Statistics</span> </g:Button></a>
+				
+						</li>
+													<li>
+				<a >
+						<g:Button ui:field="lbl_discounts"  height= "80px"  width="82px" styleName="{style.orange}"> <i class="icon-gift" ></i>
+						<span>Loyaltys</span></g:Button></a>
+				
+						</li>				
+
+		</ul>
+
+	</div>
+
+	</g:HTMLPanel>
+
+</ui:UiBinder> 

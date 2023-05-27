@@ -1,0 +1,2 @@
+serviceClass: ecr.web.app.client.services.TerminalService
+path: CFB241D45B34C2CC70033FD75C044C1F.gwt.rpc

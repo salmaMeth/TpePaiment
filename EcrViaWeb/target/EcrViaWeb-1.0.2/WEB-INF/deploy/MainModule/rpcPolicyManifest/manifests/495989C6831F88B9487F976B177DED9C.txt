@@ -1,0 +1,2 @@
+serviceClass: ecr.web.app.client.services.MessageServices
+path: AD9929DAAF1E72E2B7592BAB506A11CD.gwt.rpc

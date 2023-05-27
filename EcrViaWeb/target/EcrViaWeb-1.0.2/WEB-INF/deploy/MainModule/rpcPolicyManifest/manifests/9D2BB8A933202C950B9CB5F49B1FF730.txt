@@ -1,0 +1,2 @@
+serviceClass: ecr.web.app.client.services.ProductsService
+path: F8CC2A6D05CADD0E052FC27400743C47.gwt.rpc

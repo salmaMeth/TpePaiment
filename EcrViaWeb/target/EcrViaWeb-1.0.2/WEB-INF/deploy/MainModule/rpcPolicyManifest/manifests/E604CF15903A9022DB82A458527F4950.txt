@@ -1,0 +1,2 @@
+serviceClass: ecr.web.app.client.services.RefondsService
+path: 7F19F51CBE75B7F78369B70007009EE6.gwt.rpc

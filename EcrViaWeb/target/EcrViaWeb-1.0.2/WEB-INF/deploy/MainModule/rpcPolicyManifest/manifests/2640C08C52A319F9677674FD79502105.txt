@@ -1,0 +1,2 @@
+serviceClass: ecr.web.app.client.services.GetStatusService
+path: 5F72FF5C4FEA8DF60D34F4D03862A0AC.gwt.rpc

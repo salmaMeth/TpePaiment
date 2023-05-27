@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='MainModule'>
+  <!-- Inherit the core Web Toolkit stuff.                        -->
+  <inherits name='com.google.gwt.user.User' />
+<!-- <inherits name="com.google.gwt.logging.Logging"/>
+ -->  <!-- We need the JUnit module in the main module,               -->
+  <!-- otherwise eclipse complains (Google plugin bug?)           -->
+  <inherits name='com.google.gwt.junit.JUnit' />
+  
+  <!-- Inherit the default GWT style sheet.  You can change       -->
+  <!-- the theme of your GWT application by uncommenting          -->
+  <!-- any one of the following lines.                            -->
+<!--   <inherits name='com.google.gwt.user.theme.standard.Standard' />
+ -->  <!-- <inherits name='com.google.gwt.user.theme.chrome.Chrome'/> -->
+  <!-- <inherits name='com.google.gwt.user.theme.dark.Dark'/>     -->
+   
+<!-- <stylesheet src='MainModule.css'/>
+ -->
+    <inherits name="org.moxieapps.gwt.highcharts.Highcharts"/>
+ <script src="../js/jquery.js"></script>
+
+  <script src="../js/custom.js"></script>
+ 
+ <stylesheet src='../css/bootstrap.css'/>
+<stylesheet src='../css/bootstrap-responsive.css'/>
+<stylesheet src='../css/font-awesome.css'/>
+<stylesheet src='../css/styles.css'/>
+<stylesheet src='../css/font-awesome-ie7.min.css'/>
+<stylesheet src='../css/ie/ie7.css'/>
+<stylesheet src='../css/ie/ie8.css'/>
+<stylesheet src='../css/ie/ie9.css'/>
+<stylesheet src='../css/aristo-ui.css'/>
+<stylesheet src='../css/elfinder.css'/>
+<stylesheet src='http://fonts.googleapis.com/css?family=Dosis'/>
+<stylesheet src='../css/jquery.gritter.css'/>
+<stylesheet src='../css/tablecloth.css'/>
+<stylesheet src='../css/responsive-tables.css'/>
+
+
+
+
+  <!-- Other module inherits                                      -->
+  <!-- Specify the app entry point class.                         -->
+  <entry-point class='ecr.web.app.client.MainModule' />
+   <!-- to be removed on production time                       -->
+<set-property name="user.agent" value="gecko1_8"/>
+<!-- <extend-property name="user.agent" values="safari"></extend-property>
+<extend-property name="user.agent" values="opera"> </extend-property>
+<extend-property name="user.agent" values="ie9"> </extend-property>
+<extend-property name="user.agent" values="ie8"> </extend-property> -->
+
+<extend-property name="locale" values="en"></extend-property>
+
+<set-property name="locale" value="en"/>
+  <!-- Specify the paths for translatable code                    -->
+  <source path='client' />
+  <source path='shared' />
+
+</module>

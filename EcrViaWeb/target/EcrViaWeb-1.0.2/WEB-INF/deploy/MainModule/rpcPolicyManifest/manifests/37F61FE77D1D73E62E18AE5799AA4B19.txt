@@ -1,0 +1,2 @@
+serviceClass: ecr.web.app.client.services.ServicePrintInfos
+path: 582DEEAE77441BCA21F63F414066DD4F.gwt.rpc

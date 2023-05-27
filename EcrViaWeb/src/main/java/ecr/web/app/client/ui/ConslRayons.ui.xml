@@ -1,0 +1,41 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:w="urn:import:com.google.gwt.widget.client" xmlns:p1="urn:import:com.google.gwt.user.cellview.client">
+	<ui:style>
+.edit-cell input {
+    width:120px;
+    text-align: center;
+}
+	</ui:style>
+
+
+<g:HTMLPanel height="100%" width="100%"  ui:field="Container" >
+<div class="row-fluid ">
+<div class="widget-container">
+<div class="span6" >
+<div id="DataTables_Table_0_filter" class="dataTables_filter">
+<label>
+Search:
+<g:TextBox  ui:field="searchBox"/>
+</label>
+</div>
+</div>
+</div></div>
+		<g:VerticalPanel height="192px" horizontalAlignment="ALIGN_LEFT" verticalAlignment="ALIGN_MIDDLE" width="993px">
+			<p1:CellTable ui:field="Tab_Rayon" height="125px" width="945px" pageSize="5" addStyleNames="{style.edit-cell}"/>
+				<g:HorizontalPanel height="23px" verticalAlignment="ALIGN_BOTTOM" width="893px" horizontalAlignment="ALIGN_RIGHT">
+					<g:Cell horizontalAlignment="ALIGN_RIGHT" verticalAlignment="ALIGN_BOTTOM">
+						<g:Label height="24px" horizontalAlignment="ALIGN_RIGHT" text="Elements:" width="589px"/>
+					</g:Cell>
+				<p1:SimplePager location="CENTER" width="205px" ui:field="page_rayon"/>
+				</g:HorizontalPanel>
+			
+					</g:VerticalPanel>
+	
+</g:HTMLPanel>
+</ui:UiBinder> 
+
+
+
+
+

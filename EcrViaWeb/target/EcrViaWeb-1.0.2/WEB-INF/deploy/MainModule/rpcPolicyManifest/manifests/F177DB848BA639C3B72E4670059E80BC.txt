@@ -1,0 +1,2 @@
+serviceClass: ecr.web.app.client.services.RangesService
+path: 44B61F39343629B466858749969E3F90.gwt.rpc

@@ -1,0 +1,104 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:w="urn:import:com.google.gwt.widget.client">
+	<ui:style>
+  .horizontalPanelStyle{
+			width: 100%;
+			height: 100%;
+			
+                      background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #e5e5e5 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffffff 0%,#e5e5e5 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+
+		}
+
+
+	</ui:style>
+
+<g:HTMLPanel height="100%" width="100%">
+	<g:VerticalPanel height="334px" width="1059px" horizontalAlignment="ALIGN_LEFT" verticalAlignment="ALIGN_MIDDLE">
+		<g:Cell verticalAlignment="ALIGN_MIDDLE">
+			<g:HorizontalPanel width="975px" height="42px" verticalAlignment="ALIGN_BOTTOM" horizontalAlignment="ALIGN_LEFT" styleName="{style.horizontalPanelStyle}">
+				<g:HorizontalPanel height="36px" width="260px" verticalAlignment="ALIGN_MIDDLE">
+					<g:Label height="17px" horizontalAlignment="ALIGN_LEFT" text="Display" width="92px"/>
+					<g:ListBox width="43px" height="19px" styleName="{style.horizontalPanelStyle}"/>
+					<g:Label height="18px" text="elements" width="65px"/>
+				</g:HorizontalPanel>
+				<g:Cell horizontalAlignment="ALIGN_RIGHT">
+					<g:HorizontalPanel horizontalAlignment="ALIGN_RIGHT" width="335px" height="36px" verticalAlignment="ALIGN_BOTTOM">
+					<g:Label text="Find" height="27px" horizontalAlignment="ALIGN_CENTER"/>
+					<g:Cell verticalAlignment="ALIGN_MIDDLE">
+						<g:TextBox height="9px"/>
+					</g:Cell>
+				</g:HorizontalPanel>
+				</g:Cell>
+			</g:HorizontalPanel>
+		</g:Cell>
+		<g:HTMLPanel width="975px" height="112px">
+		<table cellspacing='0' width="969px" height="141px" ui:field="table">
+ <!-- cellspacing='0' is important, must stay -->
+	<tr>  <th >Name</th>
+            <th>Taux</th>
+            <th>Montant</th>
+            <th>Prix Fixé</th>
+                                 
+            </tr><!-- Table Header -->
+    
+
+	<tr   > 
+	                     <td> </td>
+                         <td></td>
+                         <td></td>
+                         <td></td>
+                                             </tr><!-- Darker Table Row -->
+
+	               	<tr> 
+	                     <td> </td>
+                         <td></td>
+                         <td></td>
+                         <td></td>
+                         <td></td>
+                         <td></td>
+                          <td></td>
+                       </tr>
+                       	<tr> 
+	                     <td> </td>
+                         <td></td>
+                         <td></td>
+                         <td></td>
+                         <td></td>
+                         <td></td>
+                          <td></td>
+                       </tr>
+</table>
+
+          		</g:HTMLPanel>
+		<g:HorizontalPanel height="42px" horizontalAlignment="ALIGN_LEFT" styleName="{style.horizontalPanelStyle}" verticalAlignment="ALIGN_BOTTOM" width="975px">
+			<g:Cell verticalAlignment="ALIGN_BOTTOM" horizontalAlignment="ALIGN_CENTER">
+				<g:Label height="28px" horizontalAlignment="ALIGN_LEFT" text="Elements:" width="165px"/>
+			</g:Cell>
+			<g:Cell verticalAlignment="ALIGN_BOTTOM">
+				<g:HorizontalPanel horizontalAlignment="ALIGN_RIGHT" width="781px" height="23px" verticalAlignment="ALIGN_BOTTOM">
+				<g:Cell horizontalAlignment="ALIGN_RIGHT">
+					<g:HorizontalPanel height="24px" width="517px" horizontalAlignment="ALIGN_RIGHT">
+						<g:Button width="109px" text="First"/>
+						<g:Button width="109px" text="Last"/>
+						<g:ListBox width="47px"/>
+						<g:Button text="Last" width="116px"/>
+						<g:Button width="116px" text="Last"/>
+				
+				</g:HorizontalPanel>
+				</g:Cell>
+			</g:HorizontalPanel>
+			</g:Cell>
+		</g:HorizontalPanel>
+					</g:VerticalPanel>
+
+
+</g:HTMLPanel>
+</ui:UiBinder> 

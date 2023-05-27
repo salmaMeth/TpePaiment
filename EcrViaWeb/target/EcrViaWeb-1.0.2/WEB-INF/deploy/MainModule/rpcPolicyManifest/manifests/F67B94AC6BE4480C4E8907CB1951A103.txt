@@ -1,0 +1,2 @@
+serviceClass: ecr.web.app.client.services.TxnResponseService
+path: 858C01794A930B02C12E5C855720FC04.gwt.rpc

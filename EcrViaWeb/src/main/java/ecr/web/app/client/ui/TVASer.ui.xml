@@ -1,0 +1,56 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:w="urn:import:com.google.gwt.widget.client" xmlns:p1="urn:import:com.google.gwt.user.cellview.client">
+	<ui:style>
+  .horizontalPanelStyle{
+			width: 100%;
+			height: 100%;
+			
+                      background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #e5e5e5 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffffff 0%,#e5e5e5 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+
+		}
+
+
+	</ui:style>
+
+<g:HTMLPanel height="1500" width="1500" ui:field="container">
+	<g:HorizontalPanel width="816px" height="274px" ui:field="horizontalPanel">
+		<g:VerticalPanel height="257px" horizontalAlignment="ALIGN_LEFT" verticalAlignment="ALIGN_MIDDLE" width="672px">
+			<g:HorizontalPanel height="42px" horizontalAlignment="ALIGN_LEFT" styleName="{style.horizontalPanelStyle}" verticalAlignment="ALIGN_BOTTOM" width="664px">
+				<g:HorizontalPanel height="38px" horizontalAlignment="ALIGN_RIGHT" verticalAlignment="ALIGN_BOTTOM" width="223px">
+					<g:Label height="22px" horizontalAlignment="ALIGN_CENTER" text="Find"/>
+					<g:TextBox alignment="LEFT" height="10px"/>
+				</g:HorizontalPanel>
+			</g:HorizontalPanel>
+			<p1:CellTable ui:field="cellTable" height="125px" width="662px"/>
+			<g:HorizontalPanel height="42px" horizontalAlignment="ALIGN_LEFT" styleName="{style.horizontalPanelStyle}" verticalAlignment="ALIGN_BOTTOM" width="659px">
+				<g:Label height="28px" horizontalAlignment="ALIGN_LEFT" text="Elements:" width="165px"/>
+				<g:HorizontalPanel height="23px" horizontalAlignment="ALIGN_RIGHT" verticalAlignment="ALIGN_BOTTOM" width="506px">
+					<g:HorizontalPanel height="24px" horizontalAlignment="ALIGN_RIGHT" width="472px">
+						<g:Button text="Premier" width="109px"/>
+						<g:Button text="Précédent" width="109px"/>
+						<g:ListBox width="47px"/>
+						<g:Button text="Suivant" width="109px"/>
+						<g:Button text="Dernier" width="116px"/>
+					</g:HorizontalPanel>
+				</g:HorizontalPanel>
+			</g:HorizontalPanel>
+			<g:DisclosurePanel open="false" height="294px" width="805px">
+				<g:header>New TVA</g:header>
+				<g:HTMLPanel width="660px" height="301px" ui:field="panel"/>
+			</g:DisclosurePanel>
+		</g:VerticalPanel>
+		
+	</g:HorizontalPanel>
+	
+
+
+</g:HTMLPanel>
+</ui:UiBinder> 

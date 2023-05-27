@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <!-- POM file generated with GWT webAppCreator -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ecr.web.app</groupId>
+  <artifactId>EcrViaWeb</artifactId>
+  <packaging>war</packaging>
+  <version>1.0.2</version>
+  <name>GWT Maven Archetype</name>
+
+  <properties>
+    <!-- Convenience property to set the GWT version -->
+    <gwtVersion>2.5.1</gwtVersion>
+    <springframeworkVersion>3.1.2.RELEASE</springframeworkVersion>
+    <!-- GWT needs at least java 1.5 -->
+    <webappDirectory>${project.build.directory}/${project.build.finalName}</webappDirectory>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+      <maven.compiler.target>1.6</maven.compiler.target>
+          <maven.compiler.source>1.6</maven.compiler.source>
+  </properties>
+
+  <dependencies>
+     <!-- 	    dependency of jaspersoft and highcharts  -->	
+ <dependency>
+			<groupId>com.jasper</groupId>
+			<artifactId>report</artifactId>
+			<version>2.0.1</version>
+		</dependency>
+		    <dependency>
+			<groupId>com.jaspe</groupId>
+			<artifactId>repor</artifactId>
+			<version>2.0.1</version>
+		</dependency>
+		<dependency>
+	<groupId>javax.mail</groupId>
+	<artifactId>mail</artifactId>
+	<version>1.4</version>
+</dependency>
+		    
+		<dependency>
+	<groupId>commons-digester</groupId>
+	<artifactId>commons-digester</artifactId>
+	<version>2.1</version>
+</dependency>
+<dependency>
+	<groupId>commons-collections</groupId>
+	<artifactId>commons-collections</artifactId>
+	<version>3.0</version>
+</dependency>
+	
+	<dependency>
+	<groupId>com.googlecode.gwt-charts</groupId>
+	<artifactId>gwt-charts</artifactId>
+	<version>0.9.9</version>
+</dependency>
+
+      
+    <dependency>
+      <groupId>com.google.gwt</groupId>
+      <artifactId>gwt-servlet</artifactId>
+      <version>${gwtVersion}</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.gwt</groupId>
+      <artifactId>gwt-user</artifactId>
+      <version>${gwtVersion}</version>
+      <scope>provided</scope>
+    </dependency>
+		<!-- Spring framework distribution -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>${springframeworkVersion}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
+			<version>${springframeworkVersion}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>${springframeworkVersion}</version>
+		</dependency>
+		    <dependency>
+			<groupId>uk.co.ingenico</groupId>
+			<artifactId>ECRJavaLib</artifactId>
+			<version>1.5.Archive-A-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-tx</artifactId>
+			<version>${springframeworkVersion}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>${springframeworkVersion}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-orm</artifactId>
+			<version>${springframeworkVersion}</version>
+		</dependency>
+
+		
+		<!-- Hibernate -->
+		<dependency>
+			<groupId>org.hibernate.javax.persistence</groupId>
+			<artifactId>hibernate-jpa-2.0-api</artifactId>
+			<version>1.0.1.Final</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-entitymanager</artifactId>
+			<version>4.1.4.Final</version>
+		</dependency>
+            <dependency>
+	<groupId>commons-fileupload</groupId>
+	<artifactId>commons-fileupload</artifactId>
+	<version>1.3.1</version>
+</dependency>
+		<dependency>
+	<groupId>commons-io</groupId>
+	<artifactId>commons-io</artifactId>
+	<version>2.4</version>
+</dependency>
+           
+        <!-- Databases Config -->    
+
+		<!-- Apache commons-logging -->
+		<dependency>
+			<groupId>commons-logging</groupId>
+			<artifactId>commons-logging</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+
+		<!-- SLF4J -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.6.6</version>
+		</dependency>
+
+		<!-- Apache log4j -->
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+			<dependency>
+			<groupId>postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>9.1-901.jdbc3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.code</groupId>
+			<artifactId>spring4gwt</artifactId>
+			<version>0.0.1</version>
+			
+		</dependency>
+	
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.7</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>javax.validation</groupId>
+      <artifactId>validation-api</artifactId>
+      <version>1.0.0.GA</version>
+      <scope>test</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>javax.validation</groupId>
+      <artifactId>validation-api</artifactId>
+      <version>1.0.0.GA</version>
+      <classifier>sources</classifier>
+      <scope>test</scope>
+    </dependency>
+
+    
+    <dependency>
+        <groupId>org.eclipse.swt</groupId>
+  <artifactId>org.eclipse.swt.gtk.linux.x86_64</artifactId>
+        <version>4.2.1</version>
+    </dependency>
+    
+  </dependencies>
+  
+  
+
+  <build>
+    <!-- Generate compiled stuff in the folder used for developing mode -->
+    <outputDirectory>${webappDirectory}/WEB-INF/classes</outputDirectory>
+
+    <plugins>
+
+      <!-- GWT Maven Plugin -->
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>cust-gwt-maven-plugin-v7</artifactId>
+        <version>2.5.1</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>compile</goal>
+              
+              <goal>i18n</goal>
+              <goal>generateAsync</goal>
+            </goals>
+             <configuration>
+							<servicePattern>**/client/services/*.java</servicePattern>
+					</configuration>
+          </execution>
+        </executions>
+        <!-- Plugin configuration. There are many available options, see 
+          gwt-maven-plugin documentation at codehaus.org -->
+        <configuration>
+          <runTarget>MainModule.html</runTarget>
+          <hostedWebapp>${webappDirectory}</hostedWebapp>
+          <i18nMessagesBundle>ecr.web.app.client.Messages</i18nMessagesBundle>
+     <!-- to be removed on production time                       -->
+          <draftCompile>true</draftCompile>
+        </configuration>
+      </plugin>
+
+      <!-- Copy static web files before executing gwt:run -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>2.1.1</version>
+        <executions>
+          <execution>
+            <phase>compile</phase>
+            <goals>
+              <goal>exploded</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <webappDirectory>${webappDirectory}</webappDirectory>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>2.3.2</version>
+        <configuration>
+          <source>1.5</source>
+          <target>1.5</target>
+        </configuration>
+      </plugin>
+    </plugins>
+	      <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.eclipse.m2e</groupId>
+                    <artifactId>lifecycle-mapping</artifactId>
+                    <version>1.0.0</version>
+                    <configuration>
+                        <lifecycleMappingMetadata>
+                            <pluginExecutions>
+                                <pluginExecution>
+                                    <pluginExecutionFilter>
+                                        <groupId>org.codehaus.mojo</groupId>
+                                        <artifactId>cust-gwt-maven-plugin-v7</artifactId>
+                                        <versionRange>[2.4.0,)</versionRange>
+                                        <goals>
+                                            <goal>resources</goal>
+                                            <goal>compile</goal>
+                                            <goal>i18n</goal>
+                                           <goal>generateAsync</goal>
+                                        </goals>
+                                    </pluginExecutionFilter>
+                                    <action>
+                                        <execute />
+                                    </action>
+                                </pluginExecution>
+                                <pluginExecution>
+                                    <pluginExecutionFilter>
+                                        <groupId>org.apache.maven.plugins</groupId>
+                                        <artifactId>maven-war-plugin</artifactId>
+                                        <versionRange>[2.1.1,)</versionRange>
+                                        <goals>
+                                            <goal>exploded</goal>
+                                        </goals>
+                                    </pluginExecutionFilter>
+                                    <action>
+                                        <execute />
+                                    </action>
+                                </pluginExecution>
+
+                            </pluginExecutions>
+                        </lifecycleMappingMetadata>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+  </build>
+	<repositories>
+		<repository>
+			<id>maven2-repository.dev.java.net</id>
+			<name>Java.net Repository for Maven</name>
+			<url>http://download.java.net/maven/2/</url>
+		</repository>
+		<repository>
+			<id>com.springsource.repository.bundles.release</id>
+			<name>EBR Spring Release Repository</name>
+			<url>http://repository.springsource.com/maven/bundles/release</url>
+		</repository>
+		<repository>
+			<id>com.springsource.repository.bundles.external</id>
+			<name>EBR External Release Repository</name>
+			<url>http://repository.springsource.com/maven/bundles/external</url>
+		</repository>
+		<repository>
+<id>local</id>
+<name>local</name>
+<url>file:${basedir}/images/</url>
+</repository>
+<repository>
+        <id>swt-repo</id>
+        <url>https://swt-repo.googlecode.com/svn/repo/</url>
+    </repository>
+	</repositories>
+</project>

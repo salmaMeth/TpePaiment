@@ -1,0 +1,2 @@
+serviceClass: ecr.web.app.client.services.OptionService
+path: CF6AF0529F95CB6264380162B6740028.gwt.rpc

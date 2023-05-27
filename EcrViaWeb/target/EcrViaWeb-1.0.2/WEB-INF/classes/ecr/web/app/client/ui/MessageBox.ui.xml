@@ -1,0 +1,56 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:w="urn:import:com.google.gwt.widget.client" xmlns:p1="urn:import:com.google.gwt.user.cellview.client">
+	<ui:style>
+ 	.mainPanel {
+                      border: 2px solid black;
+           
+        }
+        body{
+   text-align: center !important;
+}
+.textBox {
+		width: 263px !important;
+	}
+.textstyle {
+
+	border-bottom: 1px solid #999;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    padding-bottom: 8px;
+}
+	</ui:style>
+
+<g:HTMLPanel styleName="{style.mainPanel}" ui:field="container">
+<div class="row-fluid ">
+<div class="span12">
+<div class="content-widgets gray">
+<div class="widget-head blue clearfix">
+<h3 class="pull-left">Message </h3>
+</div>
+<div class="widget-container">
+<div class="control-group">
+<div class="controls">
+<div class="pull-left">
+<button class="btn btn-round-min btn-primary">
+<span>
+<i class="icon-info-sign"></i>
+</span>
+ </button>
+ </div></div>
+ <div class="controls">
+ <h5><g:Label ui:field="lbl_infos" height="28px" width="453px"/>  </h5>   
+<g:Button ui:field="bnt_ok" width="83px">OK </g:Button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+	</g:HTMLPanel>
+</ui:UiBinder> 

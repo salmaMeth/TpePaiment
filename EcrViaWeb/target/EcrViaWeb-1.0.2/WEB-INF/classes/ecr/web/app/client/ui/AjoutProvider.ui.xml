@@ -1,0 +1,62 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" 
+	xmlns:p1="urn:import:com.google.gwt.user.datepicker.client"
+	 xmlns:w="urn:import:com.google.gwt.widget.client"
+	   xmlns:view='urn:import:ecr.web.app.client.services'>
+	<ui:style>
+	
+	</ui:style>
+	<g:HTMLPanel>
+			<g:HorizontalPanel width="971px" height="340px"  ui:field="horizontalPanel" verticalAlignment="ALIGN_BOTTOM">
+			<g:VerticalPanel height="319px" width="341px" >
+						
+					<g:HorizontalPanel height="31px" width="337px">
+					<g:Label  text="First first" width="140px"/>
+					<g:TextBox  ui:field="txt_Name"/>
+				</g:HorizontalPanel>
+					<g:HorizontalPanel height="31px" width="337px">
+					<g:Label  text="Last name" width="140px"/>
+					<g:TextBox  ui:field="txt_SecName"/>
+				</g:HorizontalPanel>
+					<g:HorizontalPanel height="31px" width="337px">
+					<g:Label text="Phone 1" width="140px"/>
+					<g:TextBox ui:field="txt_phone1"/>
+				</g:HorizontalPanel>
+					<g:HorizontalPanel height="31px" width="337px">
+					<g:Label text="Phone 2" width="140px"/>
+					<g:TextBox ui:field="txt_phone2"/>
+				</g:HorizontalPanel>
+			
+			   </g:VerticalPanel>
+				<g:VerticalPanel height="319px" width="341px" >
+				<g:HorizontalPanel height="31px" width="337px">
+					<g:Label  text="Mail adress" width="140px"/>
+					<g:TextBox ui:field="txt_Mail"/>
+				</g:HorizontalPanel>
+				<g:HorizontalPanel height="31px" width="337px">
+					<g:Label  text="property" width="140px"/>
+					<g:TextBox  ui:field="txt_property"/>
+				</g:HorizontalPanel>
+					<g:HorizontalPanel height="31px" width="337px">
+					<g:Label  text="Address" width="140px"/>
+					<g:TextBox  ui:field="txt_Adresse"/>
+				</g:HorizontalPanel>
+	             <g:HorizontalPanel height="31px" width="337px">
+					<g:Label text="Postal code" width="140px"/>
+					<g:TextBox ui:field="txt_codepos"/>
+				</g:HorizontalPanel>
+						
+				</g:VerticalPanel>
+							<g:Cell horizontalAlignment="ALIGN_RIGHT">
+								<g:DisclosurePanel open="true" height="116px">
+				<g:header></g:header>
+				<g:VerticalPanel width="132px" height="180px">
+					<g:Button  width="173px" height="33px" text="Add provider" ui:field="bnt_Ajoutprovider"/>
+					<g:Button  width="173px" height="33px" text="Cancel"  ui:field="bnt_Reset"/>
+				</g:VerticalPanel>
+			</g:DisclosurePanel>
+							</g:Cell>
+		</g:HorizontalPanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

@@ -1,0 +1,21 @@
+# Module MainModule
+# RPC service class, partial path of RPC policy file
+ecr.web.app.client.services.AdressMailService, 339C6E298BEFA168209111D8B0D91212.gwt.rpc
+ecr.web.app.client.services.OptionService, CF6AF0529F95CB6264380162B6740028.gwt.rpc
+ecr.web.app.client.services.TVAService, 1289A64295A3BC9EC357780DAB449249.gwt.rpc
+ecr.web.app.client.services.GetStatusService, 5F72FF5C4FEA8DF60D34F4D03862A0AC.gwt.rpc
+ecr.web.app.client.services.HistoricService, A95F84089BF9A6568404C230FCF5D867.gwt.rpc
+ecr.web.app.client.services.ServicePrintInfos, 582DEEAE77441BCA21F63F414066DD4F.gwt.rpc
+ecr.web.app.client.services.MessageServices, AD9929DAAF1E72E2B7592BAB506A11CD.gwt.rpc
+ecr.web.app.client.services.ClientService, 266A88BA502BB736D68FA0321980CC57.gwt.rpc
+ecr.web.app.client.services.UsersService, 1417C5702F7E65288A5FF4374DB085E1.gwt.rpc
+ecr.web.app.client.services.TerminalService, CFB241D45B34C2CC70033FD75C044C1F.gwt.rpc
+ecr.web.app.client.services.ProductsService, F8CC2A6D05CADD0E052FC27400743C47.gwt.rpc
+ecr.web.app.client.services.ShiftService, D61069B8136735238234E1445A70C9FF.gwt.rpc
+ecr.web.app.client.services.CashService, E1A6F511274769BC0F6E1ABCE727DD86.gwt.rpc
+ecr.web.app.client.services.DiscountService, AA3D8F7F32BF7412E11EA97B1FE16685.gwt.rpc
+ecr.web.app.client.services.StartTxnService, 7833A3EF4A182FBEEDF604519F30FE6F.gwt.rpc
+ecr.web.app.client.services.RefondsService, 7F19F51CBE75B7F78369B70007009EE6.gwt.rpc
+ecr.web.app.client.services.ProviderService, C6F8899AB5DD9D5EE9DC8637934DCCB4.gwt.rpc
+ecr.web.app.client.services.RangesService, 44B61F39343629B466858749969E3F90.gwt.rpc
+ecr.web.app.client.services.TxnResponseService, 858C01794A930B02C12E5C855720FC04.gwt.rpc

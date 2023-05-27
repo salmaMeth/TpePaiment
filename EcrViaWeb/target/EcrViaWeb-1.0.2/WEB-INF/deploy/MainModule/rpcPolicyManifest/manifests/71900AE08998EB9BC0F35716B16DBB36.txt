@@ -1,0 +1,2 @@
+serviceClass: ecr.web.app.client.services.UsersService
+path: 1417C5702F7E65288A5FF4374DB085E1.gwt.rpc

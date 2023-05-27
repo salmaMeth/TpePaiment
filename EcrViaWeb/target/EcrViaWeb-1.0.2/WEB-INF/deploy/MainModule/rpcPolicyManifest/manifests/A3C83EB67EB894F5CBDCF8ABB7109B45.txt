@@ -1,0 +1,2 @@
+serviceClass: ecr.web.app.client.services.ShiftService
+path: D61069B8136735238234E1445A70C9FF.gwt.rpc

@@ -1,0 +1,30 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:w="urn:import:com.google.gwt.widget.client">
+	<ui:style>
+	.mainPanel {
+                      border: 1px solid black;
+           
+        }
+	</ui:style>
+	<g:HTMLPanel>
+		<g:VerticalPanel width="871px" height="363px" verticalAlignment="ALIGN_TOP">
+			<g:HorizontalPanel width="730px" height="249px">
+				<g:VerticalPanel width="593px" height="234px" styleName="{style.mainPanel}">
+					<g:HorizontalPanel width="706px" height="72px" verticalAlignment="ALIGN_MIDDLE">
+						<g:Label height="24px" text="Cash register" width="145px"/>
+						<g:ListBox width="218px"/>
+					</g:HorizontalPanel>
+					<g:HorizontalPanel width="583px" height="40px" verticalAlignment="ALIGN_MIDDLE">
+						<g:Label height="33px" text="grand total of sales" width="214px"/>
+						<g:TextBox width="227px" enabled="false" readOnly="true" height="7px"/>
+											</g:HorizontalPanel>
+					<g:VerticalPanel width="640px" height="48px">
+						<g:Button width="211px" text="Close cash register"/>
+					</g:VerticalPanel>
+				</g:VerticalPanel>
+			</g:HorizontalPanel>
+		</g:VerticalPanel>
+		
+	</g:HTMLPanel>
+</ui:UiBinder> 

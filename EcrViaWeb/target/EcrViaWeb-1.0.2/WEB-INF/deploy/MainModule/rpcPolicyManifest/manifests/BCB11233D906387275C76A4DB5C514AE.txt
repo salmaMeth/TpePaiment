@@ -1,0 +1,2 @@
+serviceClass: ecr.web.app.client.services.CashService
+path: E1A6F511274769BC0F6E1ABCE727DD86.gwt.rpc
